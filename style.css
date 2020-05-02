@@ -3,3 +3,11 @@
   padding: 0;
   font-family: sans-serif;
 }
+:root {
+  --grey: #2e4152;
+}
+header {
+  height: 50px;
+  width: 100%;
+  background-color: var(--grey);
+}
