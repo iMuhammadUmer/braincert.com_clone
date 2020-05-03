@@ -156,3 +156,8 @@ main a {
   text-decoration: underline;
   color: white;
 }
+.features {
+  height: 330px;
+  width: 100%;
+  background-color: var(--grey);
+}
