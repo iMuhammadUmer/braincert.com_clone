@@ -26,8 +26,8 @@ header .content {
   align-items: center;
 }
 #logo {
-  width: 160px;
-  height: 40px;
+  width: 150px;
+  height: 30px;
 }
 nav {
   width: 430px;
@@ -160,4 +160,11 @@ main a {
   height: 330px;
   width: 100%;
   background-color: var(--grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features .content {
+  width: 80%;
+  height: 250px;
 }
