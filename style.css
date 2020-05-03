@@ -167,4 +167,12 @@ main a {
 .features .content {
   width: 80%;
   height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.featuresCol {
+  height: 250px;
+  width: 395px;
+  background-color: var(--pink);
 }
