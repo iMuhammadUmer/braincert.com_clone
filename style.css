@@ -100,6 +100,7 @@ button:hover {
 #btnRegister {
   width: 102px;
   height: 33px;
+  border: 2px solid var(--pink);
   background-color: var(--pink);
   color: white;
   transition: 0.3s ease;
@@ -179,8 +180,8 @@ main a {
   justify-content: space-between;
 }
 .featuresCol .img {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -212,4 +213,22 @@ main a {
 .platforms {
   height: 940px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.platforms .content {
+  width: 85%;
+  height: 760px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  color: var(--grey);
+  background-color: var(--pink);
+}
+.platforms h1 {
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 300;
 }
