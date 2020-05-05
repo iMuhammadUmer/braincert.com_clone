@@ -218,7 +218,7 @@ main a {
   align-items: center;
 }
 .platforms .content {
-  width: 85%;
+  width: 90%;
   height: 760px;
   display: flex;
   justify-content: space-between;
@@ -237,7 +237,6 @@ main a {
   display: flex;
   justify-content: space-between;
 }
-
 .platformsRow .platformsCol {
   height: 300px;
   width: 49%;
@@ -283,5 +282,13 @@ main a {
 }
 #onlineCourses {
   background: url(images/800x600_11.jpg);
+  background-size: cover;
+}
+#onlineTesting {
+  background: url(images/800x600_13.jpg);
+  background-size: cover;
+}
+#unifiedContent {
+  background: url(images/800x600_14.jpg);
   background-size: cover;
 }
