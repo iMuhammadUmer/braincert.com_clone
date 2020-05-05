@@ -292,3 +292,7 @@ main a {
   background: url(images/800x600_14.jpg);
   background-size: cover;
 }
+.awards {
+  width: 100%;
+  height: 460px;
+}
