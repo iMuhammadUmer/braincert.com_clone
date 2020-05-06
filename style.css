@@ -335,3 +335,8 @@ main a {
   font-weight: 300;
   line-height: 21px;
 }
+.features {
+  height: 900px;
+  width: 100%;
+  background-image: url(images/blur-bg4.jpg);
+}
