@@ -11,6 +11,7 @@
   --white: #f3f4f5;
   --border: #dddddd;
   --hr: #f3f4f5;
+  --featuresColImgBg: #9d969f;
 }
 header {
   height: 50px;
@@ -335,8 +336,67 @@ main a {
   font-weight: 300;
   line-height: 21px;
 }
-.features {
+.featuresClassroom {
   height: 900px;
   width: 100%;
   background-image: url(images/blur-bg4.jpg);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.featuresClassroom .content {
+  width: 85%;
+  height: 730px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+.featuresClassroom h1 {
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 500;
+}
+.featuresClassroom p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.featuresClassroom .content .featuresClassroomRow {
+  width: 100%;
+  height: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.featuresClassroomRow {
+  color: var(--grey);
+}
+.featuresClassroomCol {
+  width: 120px;
+  height: 145px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+}
+.featuresClassroomCol .img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--featuresColImgBg);
+}
+.featuresClassroomCol a {
+  color: white;
+}
+.featuresClassroomCol h4 {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
 }
