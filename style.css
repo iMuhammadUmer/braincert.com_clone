@@ -469,4 +469,7 @@ main a {
   width: 114px;
   height: 75px;
 }
-
+.feedback{
+  height: 630px;
+  width: 100%;
+}
