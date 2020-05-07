@@ -13,6 +13,7 @@
   --hr: #f3f4f5;
   --featuresColImgBg: #9d969f;
   --aboutFeaturesBorder: rgba(255, 255, 255, 0.15);
+  --silver: #c4c4c4;
 }
 header {
   height: 50px;
@@ -424,3 +425,48 @@ main a {
   line-height: 27px;
   font-weight: 600;
 }
+.customers {
+  height: 330px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--silver);
+}
+.customers p {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 300;
+  color: var(--grey);
+  margin-bottom: 1em;
+}
+.customers .customersRow {
+  width: 85%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.customersRow img {
+  height: 60px;
+  width: 200px;
+  margin-right: 1em;
+}
+#modern {
+  height: 75px;
+  width: 75px;
+}
+#coldwell {
+  height: 75px;
+  width: 110px;
+}
+#gowdy {
+  height: 80px;
+  width: 150px;
+}
+#oxford {
+  width: 114px;
+  height: 75px;
+}
+
