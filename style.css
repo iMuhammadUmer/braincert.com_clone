@@ -12,6 +12,7 @@
   --border: #dddddd;
   --hr: #f3f4f5;
   --featuresColImgBg: #9d969f;
+  --aboutFeaturesBorder: rgba(255, 255, 255, 0.15);
 }
 header {
   height: 50px;
@@ -399,4 +400,27 @@ main a {
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
+}
+.aboutFeatures {
+  width: 100%;
+  height: 200px;
+  border-top: 1px solid var(--aboutFeaturesBorder);
+  border-bottom: 1px solid var(--aboutFeaturesBorder);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutFeatures h1 {
+  font-size: 30px;
+  line-height: 33px;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+}
+#btnFeatures {
+  width: 225px;
+  height: 60px;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 600;
 }
