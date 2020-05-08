@@ -541,8 +541,30 @@ main a {
   font-size: 40px;
   line-height: 44px;
   font-weight: 300;
-  margin-bottom: 0.3em;
 }
 .signUp p {
-  display: inline-block;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+footer {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--grey);
+}
+.footer .content {
+  width: 85%;
+  height: 263px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .linksRow {
+  width: 100%;
+  height: 170px;
 }
