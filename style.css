@@ -506,4 +506,43 @@ main a {
   height: 185px;
   width: 100%;
   background-color: var(--green);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signUp .content {
+  width: 85%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#btnSignup {
+  width: 360px;
+  height: 60px;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 600;
+  background-color: white;
+  color: var(--grey);
+  transition: 0.3s ease;
+}
+#btnSignup:hover {
+  background-color: var(--grey);
+  border: none;
+  color: white;
+}
+.signUp .info {
+  width: 450px;
+  height: 80px;
+}
+.signUp h1 {
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 300;
+  margin-bottom: 0.3em;
+}
+.signUp p {
+  display: inline-block;
 }
