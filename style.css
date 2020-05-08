@@ -469,7 +469,35 @@ main a {
   width: 114px;
   height: 75px;
 }
-.feedback{
-  height: 630px;
+.feedback {
+  height: 500px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--hr);
+  color: var(--grey);
+}
+.feedback .content {
+  height: 180px;
+  width: 85%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 3em;
+}
+.feedback p {
+  width: 95%;
+  height: 92px;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 300;
+}
+.feedback h1 {
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 300;
 }
