@@ -15,6 +15,7 @@
   --aboutFeaturesBorder: rgba(255, 255, 255, 0.15);
   --silver: #c4c4c4;
   --green: #8bce7b;
+  --social: #656e74;
 }
 header {
   height: 50px;
@@ -573,5 +574,47 @@ footer .linksRow {
 .linksRow .linksCol {
   height: 150px;
   width: 290px;
-  background-color: var(--pink);
+  /* background-color: var(--pink); */
+}
+.linksCol #heading {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  color: var(--navLiHoverBorder);
+  margin-bottom: 0.7em;
+  text-transform: uppercase;
+}
+#btnCourses {
+  width: 68px;
+  height: 28px;
+}
+#btnTests {
+  width: 50px;
+  height: 28px;
+}
+#btnLiveClasses {
+  width: 90px;
+  height: 28px;
+}
+#colHr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.hr {
+  border-bottom: 1px solid var(--navLiHoverBorder);
+}
+#social {
+  color: var(--social);
+  margin-right: 0.5em;
+}
+footer li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--hr);
+}
+footer li a {
+  font-size: inherit;
+  color: inherit;
 }
