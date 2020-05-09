@@ -567,4 +567,11 @@ footer {
 footer .linksRow {
   width: 100%;
   height: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+.linksRow .linksCol {
+  height: 150px;
+  width: 290px;
+  background-color: var(--pink);
 }
