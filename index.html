@@ -539,7 +539,7 @@
               <li>
                 <a href="#">
                   <i class="fa fa-globe"></i>
-                  help desk
+                  Help Desk
                 </a>
               </li>
             </ul>
@@ -626,9 +626,32 @@
           <!--linksCol end-->
         </div>
         <!--linksRow end-->
+        <div class="copyright">
+          <!--copyright start-->
+          <span>
+            <a href="mailto:support@braincert.com">support@braincert.com</a>
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+          </span>
+          <a href="index.html">
+            <img src="images/bc-thumb-32x32.png" alt="BrainCert" />
+          </a>
+          <a href="#" id="top">
+            <button id="btnUp">
+              <i class="fa fa-angle-double-up fa-2x"></i>
+            </button>
+          </a>
+        </div>
+        <!--copyright end-->
       </div>
       <!--content end-->
     </footer>
     <!--footer start-->
+    <script type="text/javascript">
+      jQuery("#top").click(function () {
+        jQuery("html, body").animate({ scrollTop: 0 }, 800);
+        return false;
+      });
+    </script>
   </body>
 </html>
