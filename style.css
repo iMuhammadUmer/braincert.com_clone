@@ -251,10 +251,6 @@ main a {
   align-items: flex-end;
   justify-content: center;
 }
-/* .platformsCol a {
-  height: 80%;
-  width: 100%;
-} */
 .platformsCol .content {
   height: 70%;
   width: 100%;
