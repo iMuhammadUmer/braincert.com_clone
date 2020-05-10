@@ -557,11 +557,11 @@ footer {
   flex-direction: column;
   background-color: var(--grey);
 }
-.footer .content {
+footer .content {
   width: 85%;
-  height: 263px;
+  height: 300px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
 }
@@ -573,7 +573,7 @@ footer .content .linksRow {
 }
 .linksRow .linksCol {
   height: 150px;
-  width: 220px;
+  width: 280px;
   margin-right: 2em;
 }
 .linksCol #heading {
@@ -622,4 +622,28 @@ footer li a {
 #resourceCompanyCol {
   width: 195px;
   height: 160px;
+}
+.copyright {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid silver;
+}
+#btnUp {
+  height: 34px;
+  width: 38px;
+  color: white;
+  background-color: black;
+  border: none;
+}
+.copyright a {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  color: var(--featuresColImgBg);
+}
+.copyright img {
+  margin-right: 10em;
 }
